@@ -52,7 +52,8 @@ npm run dev
 
 Install new dependencies
 ```
-npm i -D babel-core babel-preset-env babel-loader
+npm install --save-dev @babel/core @babel/preset-env
+
 ```
 
 babel-core and babel-preset-env to get babel setup ready to transpile ES6+ to ES5. Secondly, babel-loader enables us to use babel with webpack to transpile any .js file.
